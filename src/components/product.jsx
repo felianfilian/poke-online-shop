@@ -5,7 +5,11 @@ class Product extends Component {
   render() {
     return (
       <div className="card" style="width: 18rem;">
-        <img src="..." className="card-img-top" alt="..."></img>
+        <img
+          src="./assets/img/tomato.jpeg"
+          className="card-img-top"
+          alt="..."
+        ></img>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">
