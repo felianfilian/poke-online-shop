@@ -6,7 +6,7 @@ class Product extends Component {
     return (
       <div className="card" styles={{ width: "18rem" }}>
         <img
-          src="./assets/img/tomato.jpeg"
+          src="/assets/img/tomato.jpeg"
           className="card-img-top"
           alt="..."
         ></img>
