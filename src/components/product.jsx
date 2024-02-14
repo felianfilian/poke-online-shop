@@ -4,7 +4,7 @@ class Product extends Component {
   state = {};
   render() {
     return (
-      <div className="card" style={{ width: "24rem" }}>
+      <div className="card" style={{ width: "100%" }}>
         <img
           src="/assets/img/tomato.jpeg"
           className="card-img-top"
