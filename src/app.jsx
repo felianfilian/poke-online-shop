@@ -10,8 +10,8 @@ class App extends Component {
       <div>
         <Navbar />
         <div className="product-container">
-          <Product />
-          <Product />
+          <Product title="Tomaten" />
+          <Product title="Gurken" />
           <Product />
           <Product />
         </div>
