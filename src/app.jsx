@@ -10,10 +10,10 @@ class App extends Component {
       <div>
         <Navbar />
         <div className="product-container">
-          <Product title="tomatos" description="red and tasty" />
-          <Product title="cucumber" />
-          <Product title="apples" />
-          <Product title="mango" />
+          <Product image="" title="tomatos" description="red and tasty" />
+          <Product image="" title="cucumber" description="green and long" />
+          <Product image="" title="apples" description="delicious" />
+          <Product image="" title="mango" description="sweet and exotic" />
         </div>
       </div>
     );
