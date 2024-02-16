@@ -13,10 +13,7 @@ class Product extends Component {
         ></img>
         <div className="card-body">
           <h5 className="card-title">{this.props.title}</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+          <p className="card-text">{this.props.description}</p>
           <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
@@ -29,6 +26,7 @@ class Product extends Component {
 // default props
 Product.defaultProps = {
   title: "Product",
+  description: "no description",
 };
 
 export default Product;
