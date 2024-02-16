@@ -12,8 +12,8 @@ class App extends Component {
         <div className="product-container">
           <Product title="Tomaten" />
           <Product title="Gurken" />
-          <Product />
-          <Product />
+          <Product title="Äpfel" />
+          <Product title="Mango" />
         </div>
       </div>
     );
