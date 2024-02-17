@@ -7,7 +7,7 @@ class Product extends Component {
     return (
       <div className="card" style={{ width: "100%" }}>
         <img
-          src="/assets/img/tomato.jpeg"
+          src="/assets/img/{this.props.image}"
           className="card-img-top"
           alt="..."
         ></img>
@@ -27,6 +27,7 @@ class Product extends Component {
 Product.defaultProps = {
   title: "Product",
   description: "no description",
+  image: "tomato.jpeg",
 };
 
 export default Product;
