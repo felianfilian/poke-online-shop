@@ -15,9 +15,17 @@ class App extends Component {
             title="tomatos"
             description="red and tasty"
           />
-          <Product image="" title="cucumber" description="green and long" />
-          <Product image="" title="apples" description="delicious" />
-          <Product image="" title="mango" description="sweet and exotic" />
+          <Product
+            image="cucumber.jpeg"
+            title="cucumber"
+            description="green and long"
+          />
+          <Product image="apples.jpeg" title="apples" description="delicious" />
+          <Product
+            image="mango.jpeg"
+            title="mango"
+            description="sweet and exotic"
+          />
         </div>
       </div>
     );
