@@ -7,7 +7,7 @@ class Product extends Component {
     return (
       <div className="card" style={{ width: "100%" }}>
         <img
-          src="/assets/img/{this.props.image}"
+          src={"/assets/img/" + this.props.image}
           className="card-img-top"
           alt="..."
         ></img>
@@ -15,7 +15,7 @@ class Product extends Component {
           <h5 className="card-title">{this.props.title}</h5>
           <p className="card-text">{this.props.description}</p>
           <a href="#" className="btn btn-primary">
-            Go somewhere
+            Hinzufügen
           </a>
         </div>
       </div>
