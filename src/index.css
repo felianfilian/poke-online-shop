@@ -9,6 +9,10 @@
   padding-right: 32px;
 }
 
+.shopping-cart {
+  width: 25vw;
+}
+
 @media (max-width: 768px) {
   .product-container {
     flex-direction: column;
