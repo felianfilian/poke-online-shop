@@ -20,7 +20,7 @@ class ShoppingCart extends Component {
       <div className="shopping-cart">
         <h2>Shopping Cart</h2>
         {this.state.items.map((item) => (
-          <div>
+          <div key={item.name}>
             {item.amount}x {item.name} - {item.price}
           </div>
         ))}

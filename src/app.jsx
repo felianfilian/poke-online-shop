@@ -5,7 +5,21 @@ import Product from "./components/product";
 import ShoppingCart from "./components/shopping-cart";
 
 class App extends Component {
-  state = {};
+  state = {
+    items: [],
+  };
+
+  addItem = (amount, name, price) => {
+    let currentItems = this.state.items;
+    currentItems.push({
+      amount,
+      name,
+      price,
+    });
+    this.setState({ items: currentItems });
+    console.log(this.state);
+  };
+
   render() {
     return (
       <div>
@@ -13,6 +27,7 @@ class App extends Component {
         <div className="main-container">
           <div className="product-container">
             <Product
+              onAdd={() => this.addItem(1, "Tomaten", 2.99)}
               image="tomato.jpeg"
               title="tomatos"
               description="red and tasty"
