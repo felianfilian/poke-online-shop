@@ -51,7 +51,7 @@ class App extends Component {
               description="sweet and exotic"
             />
           </div>
-          <ShoppingCart></ShoppingCart>
+          <ShoppingCart items={this.state.items}></ShoppingCart>
         </div>
       </div>
     );
