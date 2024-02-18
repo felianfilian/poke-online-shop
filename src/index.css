@@ -1,6 +1,7 @@
 .product-container {
   display: flex;
   gap: 32px;
+
   padding: 0 32px;
 }
 
